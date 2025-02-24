@@ -1,0 +1,41 @@
+@prefix ex: <http://synapsehealth.com/dme/> .
+
+# Product 1: Wheelchair Model X
+<http://synapsehealth.com/dme/product/1234> a ex:Product ;
+    ex:hasName "Wheelchair Model X" ;
+    ex:hasPrice 350.00 ;
+    ex:hasSupplier <http://synapsehealth.com/dme/supplier/5678> ;
+    ex:hasHCPCSCode "K0001" ;
+    ex:hasDXCode "M17.11" .
+
+# Product 2: Oxygen Tank Model Y
+<http://synapsehealth.com/dme/product/2345> a ex:Product ;
+    ex:hasName "Oxygen Tank Model Y" ;
+    ex:hasPrice 120.00 ;
+    ex:hasSupplier <http://synapsehealth.com/dme/supplier/6789> ;
+    ex:hasHCPCSCode "E0424" ;
+    ex:hasDXCode "J44.9" .
+
+# Supplier 1: ABC Medical Supplies
+<http://synapsehealth.com/dme/supplier/5678> a ex:Supplier ;
+    ex:hasName "ABC Medical Supplies" ;
+    ex:hasLocation "New York, NY" .
+
+# Supplier 2: XYZ Healthcare
+<http://synapsehealth.com/dme/supplier/6789> a ex:Supplier ;
+    ex:hasName "XYZ Healthcare" ;
+    ex:hasLocation "Los Angeles, CA" .
+
+# HCPCS Codes
+<http://synapsehealth.com/dme/hcpcs/K0001> a ex:HCPCSCode ;
+    ex:hasDescription "Standard Wheelchair" .
+
+<http://synapsehealth.com/dme/hcpcs/E0424> a ex:HCPCSCode ;
+    ex:hasDescription "Oxygen Tank" .
+
+# DX Codes
+<http://synapsehealth.com/dme/dx/M17.11> a ex:DXCode ;
+    ex:hasDescription "Unilateral Primary Osteoarthritis, Right Knee" .
+
+<http://synapsehealth.com/dme/dx/J44.9> a ex:DXCode ;
+    ex:hasDescription "Chronic Obstructive Pulmonary Disease, Unspecified" .
