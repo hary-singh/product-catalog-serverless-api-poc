@@ -40,7 +40,7 @@ public class HttpTriggerJava {
             @HttpTrigger(
                 name = "req",
                 methods = {HttpMethod.GET},
-                authLevel = AuthorizationLevel.ANONYMOUS,
+                authLevel = AuthorizationLevel.FUNCTION,
                 route = "products"
             ) HttpRequestMessage<Optional<String>> request,
             final ExecutionContext context) {
