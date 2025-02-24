@@ -1,0 +1,145 @@
+@prefix ex: <http://synapsehealth.com/dme/> .
+
+# Manual Wheelchairs
+<http://synapsehealth.com/dme/product/K0001-001> a ex:Product ;
+    ex:hasName "Standard Manual Wheelchair" ;
+    ex:hasManufacturer "Drive Medical" ;
+    ex:hasModel "Silver Sport 1" ;
+    ex:hasPrice 495.00 ;
+    ex:hasSupplier <http://synapsehealth.com/dme/supplier/5678> ;
+    ex:hasHCPCSCode "K0001" ;
+    ex:hasDXCode "M05.241" .
+
+<http://synapsehealth.com/dme/product/K0004-001> a ex:Product ;
+    ex:hasName "High Strength Lightweight Wheelchair" ;
+    ex:hasManufacturer "Invacare" ;
+    ex:hasModel "ProSPIN X4" ;
+    ex:hasPrice 895.00 ;
+    ex:hasSupplier <http://synapsehealth.com/dme/supplier/5678> ;
+    ex:hasHCPCSCode "K0004" ;
+    ex:hasDXCode "G82.20" .
+
+# Hospital Beds
+<http://synapsehealth.com/dme/product/E0260-001> a ex:Product ;
+    ex:hasName "Semi-Electric Hospital Bed" ;
+    ex:hasManufacturer "Invacare" ;
+    ex:hasModel "5410IVC" ;
+    ex:hasPrice 875.00 ;
+    ex:hasSupplier <http://synapsehealth.com/dme/supplier/6789> ;
+    ex:hasHCPCSCode "E0260" ;
+    ex:hasDXCode "G82.20" .
+
+<http://synapsehealth.com/dme/product/E0265-001> a ex:Product ;
+    ex:hasName "Full-Electric Hospital Bed" ;
+    ex:hasManufacturer "Drive Medical" ;
+    ex:hasModel "Delta Ultra" ;
+    ex:hasPrice 1295.00 ;
+    ex:hasSupplier <http://synapsehealth.com/dme/supplier/6789> ;
+    ex:hasHCPCSCode "E0265" ;
+    ex:hasDXCode "G82.20" .
+
+# Oxygen Equipment
+<http://synapsehealth.com/dme/product/E0431-001> a ex:Product ;
+    ex:hasName "Portable Oxygen Concentrator" ;
+    ex:hasManufacturer "Philips Respironics" ;
+    ex:hasModel "SimplyGo Mini" ;
+    ex:hasPrice 2395.00 ;
+    ex:hasSupplier <http://synapsehealth.com/dme/supplier/7890> ;
+    ex:hasHCPCSCode "E0431" ;
+    ex:hasDXCode "J96.10" .
+
+<http://synapsehealth.com/dme/product/E1390-001> a ex:Product ;
+    ex:hasName "Stationary Oxygen Concentrator" ;
+    ex:hasManufacturer "Invacare" ;
+    ex:hasModel "Platinum 10" ;
+    ex:hasPrice 695.00 ;
+    ex:hasSupplier <http://synapsehealth.com/dme/supplier/7890> ;
+    ex:hasHCPCSCode "E1390" ;
+    ex:hasDXCode "J96.10" .
+
+# CPAP Devices
+<http://synapsehealth.com/dme/product/E0601-001> a ex:Product ;
+    ex:hasName "CPAP Device" ;
+    ex:hasManufacturer "ResMed" ;
+    ex:hasModel "AirSense 11" ;
+    ex:hasPrice 989.00 ;
+    ex:hasSupplier <http://synapsehealth.com/dme/supplier/7890> ;
+    ex:hasHCPCSCode "E0601" ;
+    ex:hasDXCode "G47.33" .
+
+# Walkers
+<http://synapsehealth.com/dme/product/E0143-001> a ex:Product ;
+    ex:hasName "Folding Walker with Wheels" ;
+    ex:hasManufacturer "Drive Medical" ;
+    ex:hasModel "Deluxe" ;
+    ex:hasPrice 89.00 ;
+    ex:hasSupplier <http://synapsehealth.com/dme/supplier/5678> ;
+    ex:hasHCPCSCode "E0143" ;
+    ex:hasDXCode "R26.2" .
+
+# Patient Lifts
+<http://synapsehealth.com/dme/product/E0630-001> a ex:Product ;
+    ex:hasName "Hydraulic Patient Lift" ;
+    ex:hasManufacturer "Hoyer" ;
+    ex:hasModel "Advance-H" ;
+    ex:hasPrice 2199.00 ;
+    ex:hasSupplier <http://synapsehealth.com/dme/supplier/6789> ;
+    ex:hasHCPCSCode "E0630" ;
+    ex:hasDXCode "G82.20" .
+
+# Suppliers
+<http://synapsehealth.com/dme/supplier/5678> a ex:Supplier ;
+    ex:hasName "MedLine DME Solutions" ;
+    ex:hasLocation "Chicago, IL" .
+
+<http://synapsehealth.com/dme/supplier/6789> a ex:Supplier ;
+    ex:hasName "National Medical Supply" ;
+    ex:hasLocation "Dallas, TX" .
+
+<http://synapsehealth.com/dme/supplier/7890> a ex:Supplier ;
+    ex:hasName "Respiratory Care Plus" ;
+    ex:hasLocation "Denver, CO" .
+
+# HCPCS Codes
+<http://synapsehealth.com/dme/hcpcs/K0001> a ex:HCPCSCode ;
+    ex:hasDescription "Standard wheelchair" .
+
+<http://synapsehealth.com/dme/hcpcs/K0004> a ex:HCPCSCode ;
+    ex:hasDescription "High strength lightweight wheelchair" .
+
+<http://synapsehealth.com/dme/hcpcs/E0260> a ex:HCPCSCode ;
+    ex:hasDescription "Semi-electric hospital bed with mattress" .
+
+<http://synapsehealth.com/dme/hcpcs/E0265> a ex:HCPCSCode ;
+    ex:hasDescription "Full-electric hospital bed with mattress" .
+
+<http://synapsehealth.com/dme/hcpcs/E0431> a ex:HCPCSCode ;
+    ex:hasDescription "Portable oxygen concentrator, rental" .
+
+<http://synapsehealth.com/dme/hcpcs/E1390> a ex:HCPCSCode ;
+    ex:hasDescription "Oxygen concentrator" .
+
+<http://synapsehealth.com/dme/hcpcs/E0601> a ex:HCPCSCode ;
+    ex:hasDescription "CPAP device" .
+
+<http://synapsehealth.com/dme/hcpcs/E0143> a ex:HCPCSCode ;
+    ex:hasDescription "Walker, folding, wheeled" .
+
+<http://synapsehealth.com/dme/hcpcs/E0630> a ex:HCPCSCode ;
+    ex:hasDescription "Patient lift, hydraulic" .
+
+# DX Codes
+<http://synapsehealth.com/dme/dx/M05.241> a ex:DXCode ;
+    ex:hasDescription "Rheumatoid myopathy with rheumatoid arthritis of right hand" .
+
+<http://synapsehealth.com/dme/dx/G82.20> a ex:DXCode ;
+    ex:hasDescription "Paraplegia, unspecified" .
+
+<http://synapsehealth.com/dme/dx/J96.10> a ex:DXCode ;
+    ex:hasDescription "Chronic respiratory failure, unspecified" .
+
+<http://synapsehealth.com/dme/dx/G47.33> a ex:DXCode ;
+    ex:hasDescription "Obstructive sleep apnea" .
+
+<http://synapsehealth.com/dme/dx/R26.2> a ex:DXCode ;
+    ex:hasDescription "Difficulty in walking, not elsewhere classified" .
