@@ -1,4 +1,4 @@
-package org.synapse.functions;
+package org.example.functions;
 
 import com.microsoft.azure.functions.ExecutionContext;
 import com.microsoft.azure.functions.HttpRequestMessage;

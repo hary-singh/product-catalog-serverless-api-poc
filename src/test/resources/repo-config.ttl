@@ -10,8 +10,8 @@
         rep:repositoryType "graphdb:FreeSailRepository" ;
         sr:sailImpl [
             sail:sailType "graphdb:FreeSail" ;
-            owlim:base-URL "http://synapsehealth.com/dme/" ;
-            owlim:defaultNS "http://synapsehealth.com/dme/entities/" ;
+            owlim:base-URL "http://example.com/dme/" ;
+            owlim:defaultNS "http://example.com/dme/entities/" ;
             owlim:entity-index-size "200000" ;
             owlim:entity-id-size  "32" ;
             owlim:imports "" ;

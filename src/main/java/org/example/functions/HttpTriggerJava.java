@@ -1,8 +1,8 @@
-package org.synapse.functions;
+package org.example.functions;
 
 import com.microsoft.azure.functions.*;
 import com.microsoft.azure.functions.annotation.*;
-import org.synapse.sparql.SparqlQueryBuilder;
+import org.example.sparql.SparqlQueryBuilder;
 
 import java.util.*;
 
